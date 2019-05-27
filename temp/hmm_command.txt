@@ -1,0 +1,1 @@
+hmmsearch Pfam-A.hmm teste.fasta 1> output-file 2> error-file
