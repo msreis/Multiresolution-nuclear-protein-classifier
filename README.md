@@ -1,1 +1,2 @@
-hmmsearch Pfam-A.hmm teste.fasta 1> output-file 2> error-file
+This project aims to design and run classifiers of nuclear proteins, based on the multiresolution paradigm.
+
