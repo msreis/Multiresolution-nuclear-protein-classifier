@@ -1,0 +1,5 @@
+nohup hmmscan data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 1> output/output-file 2> output/error-file
+
+nohup hmmscan --tblout output/output-file-tbl data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 
+
+nohup hmmscan --domtblout output/output-file-domtbl data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 
