@@ -2,4 +2,12 @@ nohup hmmscan data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 1> output/output-fi
 
 nohup hmmscan --tblout output/output-file-tbl data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 
 
-nohup hmmscan --domtblout output/output-file-domtbl data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta 
+nohup hmmscan --domtblout output/output-file-domtbl data/Pfam-A.hmm input/T_cruzi_TriTryp-25.fasta
+
+
+
+formatdb -p T -i input/T_cruzi_TriTryp-25.fasta
+
+nohup blastall -p blastp -d input/T_cruzi_TriTryp-25.fasta -i input/swiss-prot--T-cruzi.fasta -o output/swiss-prot--T-cruzi.blastp -b 2 -e 0.05 -m 8 1> output/out-blast 2> output/error-blast
+
+nohup blastall -p blastp -d input/T_cruzi_TriTryp-25.fasta -i input/swiss-prot--T-cruzi.fasta -o output/swiss-prot--T-cruzi.blastp.xml -b 2 -e 0.05 -m 8 1> output/out-blast 2> output/error-blast

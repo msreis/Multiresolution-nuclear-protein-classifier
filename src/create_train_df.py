@@ -36,10 +36,8 @@ df_hmm.head(2)
 ###
 # Swissprot data
 df_swissprot = pd.read_csv(wd + 'output/df_swiss_prot_t_cruzi.csv')
-df_swissprot.shape
 df_swissprot.head(2)
 df_swissprot.shape
-
 
 ###
 # Creates final dataframes with nucleus/membrane hmm scores
