@@ -2,7 +2,11 @@ import pandas as pd
 import numpy as np
 import re
 
-wd = '/home/cirofdo/Documents/Multiresolution-nuclear-protein-classifier/'
+#wd = '/home/cirofdo/Documents/Multiresolution-nuclear-protein-classifier/'
+wd = 'C:/Users/cirof/Documents/Multiresolution-nuclear-protein-classifier-organize-data/'
+
+
+
 
 ###
 # Pfam data
@@ -20,6 +24,15 @@ df_pfam_locations['flag_membrane'] = np.where(df_pfam_locations['keyword'].isin(
 df_pfam_locations.shape
 df_pfam_locations.head(2)
 
+
+# The Pfam keyword search find the same accession in different terms
+# so I will group these values
+df_pfam_locations = df_pfam_locations.groupby('accession')[['flag_nucleus', 'flag_membrane']].max().reset_index()
+df_pfam_locations.shape
+
+
+
+
 ###
 # HMM output DataFrame
 
@@ -28,6 +41,7 @@ df_hmm = pd.read_csv(wd + 'output/df_t_cruzi_hmm.csv', low_memory=False)
 
 # Remove any character after dot ('.')
 df_hmm.accession = df_hmm.accession.apply(lambda x: re.sub(r'\..*', '', x.strip()))
+df_hmm.target_name = df_hmm.target_name.apply(lambda x: x.strip())
 df_hmm.query_name = df_hmm.query_name.apply(lambda x: x.strip())
 df_hmm.shape
 df_hmm.head(2)
@@ -42,10 +56,6 @@ df_swissprot.shape
 ###
 # Creates final dataframes with nucleus/membrane hmm scores
 
-# The Pfam keyword search find the same accession in different terms
-# so I will group these values
-df_pfam_locations = df_pfam_locations.groupby('accession')[['flag_nucleus', 'flag_membrane']].max().reset_index()
-df_pfam_locations.shape
 
 # Now I merge these pfam accessions with T cruzi hmm output data
 df_hmm = df_hmm.merge(df_pfam_locations, how='left')
