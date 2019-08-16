@@ -56,22 +56,27 @@ df_swissprot.shape
 
 ###
 # Adjusting variables
-df_swissprot['accession'] = df_swissprot.iteration_query_def.str.split('|', expand=True).iloc[:,1]
+df_swissprot['accession_2'] = df_swissprot.iteration_query_def.str.split('|', expand=True).iloc[:,1]
 df_swissprot['query_name'] = df_swissprot.query_id.str.split('|', expand=True).iloc[:,0]
 df_swissprot['query_name'] = df_swissprot.query_name.apply(lambda x: str(x).strip())
 
-df_hmm.sample(3)
 
 
 
 
-df_hmm.query_name[123]
+df_join = df_pfam_locations.merge(df_hmm)
+df_join.head(2)
+df_join.shape
 
-df_swissprot.query_name[32].strip()
 
-len(df_hmm.accession.unique())
 
-df_swissprot[['query_name', 'aln_length']]
+
+
+df_join = df_join.merge(df_swissprot, how='left')
+
+df_join[df_join['aln_length'].notna()]
+
+df_swissprot['query_name'][1]
 
 df_hmm[['accession', 'query_name']].merge(df_swissprot[['query_name', 'aln_length']], how='inner')
 
