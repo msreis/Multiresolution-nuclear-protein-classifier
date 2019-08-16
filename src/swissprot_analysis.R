@@ -24,4 +24,4 @@ for(i in 1:length(iterations)){
   }
 }
 
-write.csv2(df_swiss_prot_t_cruzi, 'output/df_swiss_prot_t_cruzi.csv')
+write.csv(df_swiss_prot_t_cruzi, 'output/df_swiss_prot_t_cruzi.csv')
