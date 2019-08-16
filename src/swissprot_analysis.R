@@ -1,7 +1,7 @@
 library(XML)
 
-#wd <- '/home/cirofdo/Documents/Multiresolution-nuclear-protein-classifier/'
-wd <- 'C:/Users/cirof/Documents/Multiresolution-nuclear-protein-classifier-organize-data/'
+wd <- '/home/cirofdo/Documents/Multiresolution-nuclear-protein-classifier/'
+#wd <- 'C:/Users/cirof/Documents/Multiresolution-nuclear-protein-classifier-organize-data/'
 
 setwd(wd)
 
@@ -24,10 +24,4 @@ for(i in 1:length(iterations)){
   }
 }
 
-
-
-iterations[1]$Iteration$Iteration_hits$`Hit`$Hit_num
-
-iterations[11]$Iteration$Iteration_hits$`Hit`$Hit_def
-
-
+write.csv2(df_swiss_prot_t_cruzi, 'output/df_swiss_prot_t_cruzi.csv')
