@@ -61,14 +61,14 @@ df_swissprot['query_name'] = df_swissprot.query_id.str.split('|', expand=True).i
 df_swissprot['query_name'] = df_swissprot.query_name.apply(lambda x: str(x).strip())
 
 
-
+df_swissprot.merge(df_hmm)
 
 
 df_join = df_pfam_locations.merge(df_hmm)
 df_join.head(2)
 df_join.shape
 
-
+df_join
 
 
 
