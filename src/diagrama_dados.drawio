@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-27T19:58:35.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="5IgzUQ7qvP5iqKEHVPcq" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-04T02:09:26.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="m0SwY7oK0vLZdc2OsboK" version="12.1.7" type="github" pages="1">
   <diagram id="9hCFB_BsOprCfilMQbIW" name="Page-1">
-    <mxGraphModel dx="1745" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1521" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -34,7 +34,7 @@
         <mxCell id="4trU9mY8yc-2ncthCHFI-12" value="&lt;b&gt;Swiss-Prot manually annotated and reviwed FASTA Data&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" parent="1" vertex="1">
           <mxGeometry x="-110" y="190" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="4trU9mY8yc-2ncthCHFI-13" value="&lt;b&gt;Pfam HMMS&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" parent="1" vertex="1">
+        <mxCell id="4trU9mY8yc-2ncthCHFI-13" value="&lt;b&gt;Pfam-A HMMs&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" parent="1" vertex="1">
           <mxGeometry x="130" y="-180" width="160" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="4trU9mY8yc-2ncthCHFI-14" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4trU9mY8yc-2ncthCHFI-13" target="4trU9mY8yc-2ncthCHFI-1" edge="1">
@@ -43,7 +43,7 @@
             <mxPoint x="390" y="-160" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4trU9mY8yc-2ncthCHFI-15" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4trU9mY8yc-2ncthCHFI-3" target="4trU9mY8yc-2ncthCHFI-20" edge="1">
+        <mxCell id="4trU9mY8yc-2ncthCHFI-15" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4trU9mY8yc-2ncthCHFI-1" target="4trU9mY8yc-2ncthCHFI-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-110" y="330" as="sourcePoint"/>
             <mxPoint x="205" y="190" as="targetPoint"/>
@@ -56,12 +56,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4trU9mY8yc-2ncthCHFI-20" value="&lt;b&gt;Run BLAST to identify Swiss-Prot proteins on TriTrypDB data&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="130" y="190" width="140" height="70" as="geometry"/>
+          <mxGeometry x="140" y="190" width="140" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="4trU9mY8yc-2ncthCHFI-25" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="4trU9mY8yc-2ncthCHFI-25" value="" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" target="4trU9mY8yc-2ncthCHFI-26" source="4trU9mY8yc-2ncthCHFI-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="225" as="sourcePoint"/>
-            <mxPoint x="349" y="225" as="targetPoint"/>
+            <mxPoint x="270" y="370" as="sourcePoint"/>
+            <mxPoint x="359" y="340" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="4trU9mY8yc-2ncthCHFI-26" value="&lt;b&gt;Swiss-Prot identified proteins&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" parent="1" vertex="1">
