@@ -1,1 +1,40 @@
-<mxfile host="www.draw.io" modified="2019-11-10T21:52:32.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" version="12.2.3" etag="xOcDItp4SEOQ_GMEpNO_" type="github" pages="1"><diagram id="Z5fkDHW1cjIffokG9NEJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-10T22:19:18.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Dp5Mt8XXAJiz_U8HvUJL" version="12.2.3" type="github" pages="1">
+  <diagram id="Z5fkDHW1cjIffokG9NEJ" name="Page-1">
+    <mxGraphModel dx="1582" dy="2027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-2" value="&lt;b&gt;Dados de domínios do Pfam&lt;br&gt;obtidos com buscas&lt;br&gt;associados a localização&lt;br&gt;celular&lt;br&gt;2.2.3&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
+          <mxGeometry x="324" y="-950" width="212" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-3" value="&lt;b&gt;Dados do TriTrypDB com&amp;nbsp;&lt;/b&gt;&lt;b&gt;as informações de alinhamento&lt;br&gt;com o Pfam e as&amp;nbsp;&lt;/b&gt;&lt;b&gt;entradas&lt;br&gt;referente ao Swiss-Prot identificadas&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-800" width="212" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-4" value="" style="endArrow=classic;html=1;fontSize=12;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5p74wlbwapX0P8FnOlIl-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.5" y="-758" as="sourcePoint"/>
+            <mxPoint x="350" y="-758" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-5" value="&lt;b&gt;Cria as features baseado no &lt;i&gt;score&lt;/i&gt;&amp;nbsp;na saída do comando &quot;hmmscan&quot; dos dados do TriTrypDB&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-803" width="180" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-6" value="" style="endArrow=classic;html=1;fontSize=12;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5p74wlbwapX0P8FnOlIl-2" target="5p74wlbwapX0P8FnOlIl-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="-748.0000000000002" as="sourcePoint"/>
+            <mxPoint x="360" y="-747.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-7" value="&lt;b&gt;Dados do TriTrypDB com&amp;nbsp;&lt;/b&gt;&lt;b&gt;as informações de alinhamento&lt;br&gt;com o Pfam e as&amp;nbsp;&lt;/b&gt;&lt;b&gt;entradas&lt;br&gt;referente ao Swiss-Prot identificadas&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-801.5" width="212" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="5p74wlbwapX0P8FnOlIl-8" value="" style="endArrow=classic;html=1;fontSize=12;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5p74wlbwapX0P8FnOlIl-5" target="5p74wlbwapX0P8FnOlIl-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="-759" as="sourcePoint"/>
+            <mxPoint x="600" y="-759.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
