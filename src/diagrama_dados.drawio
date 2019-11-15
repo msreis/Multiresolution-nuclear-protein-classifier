@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2019-11-10T21:39:03.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="aXM2ijd5nJZl5Ka-G80F" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-15T16:22:17.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="u3wSP7E3YUEwAplsjCXt" version="12.1.7" type="github" pages="1">
   <diagram id="9hCFB_BsOprCfilMQbIW" name="Page-1">
-    <mxGraphModel dx="2382" dy="2127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2721" dy="2326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="F-quMCV03kclnCfe2PoB-3" value="&lt;b&gt;Dados do TriTrypDB no formato FASTA&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="-925" width="170" height="70" as="geometry"/>
+          <mxGeometry x="-464" y="-995" width="170" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-4" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-3" target="F-quMCV03kclnCfe2PoB-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-520" y="-855" as="sourcePoint"/>
-            <mxPoint x="-270" y="-965" as="targetPoint"/>
+            <mxPoint x="-497" y="-855" as="sourcePoint"/>
+            <mxPoint x="-247" y="-965" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-8" value="" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-32" target="F-quMCV03kclnCfe2PoB-9">
@@ -19,62 +19,56 @@
             <mxPoint x="60" y="-930" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-9" value="&lt;b&gt;Sequências do&lt;br&gt;TriTrypDB identificadas&lt;br&gt;&amp;nbsp;nos dados do&lt;br&gt;Pfam HMM&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="-995" width="170" height="70" as="geometry"/>
+        <mxCell id="F-quMCV03kclnCfe2PoB-9" value="&lt;b&gt;Sequências do TriTrypDB &lt;br&gt;com os domínios identificados&amp;nbsp;nos dados&lt;br&gt;do Pfam HMM&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="-1002.5" width="200" height="85" as="geometry"/>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-13" value="&lt;b&gt;Pfam-A HMMs&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="-1110" width="160" height="60" as="geometry"/>
+          <mxGeometry x="-247" y="-1110" width="160" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-14" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-13" target="F-quMCV03kclnCfe2PoB-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-70" y="-1105" as="sourcePoint"/>
-            <mxPoint x="-200" y="-1070" as="targetPoint"/>
+            <mxPoint x="-47" y="-1105" as="sourcePoint"/>
+            <mxPoint x="-177" y="-1070" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-21" value="&lt;b&gt;Dados do Swiss-Prot manualmente curados&lt;br&gt;no formato FASTA&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="-275" y="-720" width="170" height="70" as="geometry"/>
+          <mxGeometry x="195" y="-1110" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-22" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-21" target="F-quMCV03kclnCfe2PoB-23">
+        <mxCell id="F-quMCV03kclnCfe2PoB-22" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-21" target="F-quMCV03kclnCfe2PoB-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-359" y="-760" as="sourcePoint"/>
-            <mxPoint x="-279.2631578947369" y="-760" as="targetPoint"/>
+            <mxPoint x="-214" y="-800" as="sourcePoint"/>
+            <mxPoint x="-134.26315789473688" y="-800" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-23" value="&lt;b&gt;Aplica o comando &quot;blastp&quot; para alinhar as proteínas&lt;br&gt;do Swiss-Prot nos dados do TriTrypDB 2.2.2&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="-860" width="160" height="80" as="geometry"/>
+        <mxCell id="F-quMCV03kclnCfe2PoB-23" value="&lt;b&gt;Usa o comando &quot;blastp&quot; para alinhar as proteínas&lt;br&gt;do Swiss-Prot com as&lt;br&gt;do TriTrypDB&lt;br&gt;2.2.2&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-1000" width="160" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-26" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-3" target="F-quMCV03kclnCfe2PoB-23">
+        <mxCell id="F-quMCV03kclnCfe2PoB-26" value="" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-9" target="F-quMCV03kclnCfe2PoB-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-390.7368421052631" y="-880" as="sourcePoint"/>
-            <mxPoint x="-260" y="-955" as="targetPoint"/>
+            <mxPoint x="-470" y="-710" as="sourcePoint"/>
+            <mxPoint x="-340" y="-845" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-27" value="" style="endArrow=classic;html=1;fontSize=12;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="F-quMCV03kclnCfe2PoB-29" source="F-quMCV03kclnCfe2PoB-23">
+        <mxCell id="F-quMCV03kclnCfe2PoB-27" value="" style="endArrow=classic;html=1;fontSize=12;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="F-quMCV03kclnCfe2PoB-37" source="F-quMCV03kclnCfe2PoB-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-115" y="-810" as="sourcePoint"/>
-            <mxPoint x="-50" y="-800" as="targetPoint"/>
+            <mxPoint x="280" y="-870" as="sourcePoint"/>
+            <mxPoint x="280" y="-842.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-29" value="&lt;b&gt;Entradas do Swiss-Prot identificadas no banco TriTrypDB&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="-855" width="170" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-32" value="&lt;b&gt;Aplica o comando &quot;hmmscan&quot; para identificar as famílias no Pfam&lt;br&gt;2.2.1&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="-1000" width="160" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-34" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-9" target="F-quMCV03kclnCfe2PoB-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="119.76315789473688" y="-960" as="sourcePoint"/>
-            <mxPoint x="180" y="-910" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F-quMCV03kclnCfe2PoB-35" value="" style="endArrow=classic;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="F-quMCV03kclnCfe2PoB-29" target="F-quMCV03kclnCfe2PoB-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="119.76315789473688" y="-820" as="sourcePoint"/>
-            <mxPoint x="180" y="-870" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="F-quMCV03kclnCfe2PoB-32" value="&lt;b&gt;Usa o comando &quot;hmmscan&quot; para identificar as famílias no Pfam&lt;br&gt;2.2.1&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-247" y="-1000" width="160" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="F-quMCV03kclnCfe2PoB-37" value="&lt;b&gt;Dados do TriTrypDB com&amp;nbsp;&lt;/b&gt;&lt;b&gt;as informações de alinhamento&lt;br&gt;com o Pfam e as&amp;nbsp;&lt;/b&gt;&lt;b&gt;entradas&lt;br&gt;referente ao Swiss-Prot identificadas&lt;br&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;fontSize=12;size=0.12631578947368421;" vertex="1" parent="1">
-          <mxGeometry x="198" y="-925" width="212" height="85" as="geometry"/>
+          <mxGeometry x="400" y="-1002.5" width="212" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="F-quMCV03kclnCfe2PoB-48" value="&lt;b&gt;1&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-1002.5" width="18" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="F-quMCV03kclnCfe2PoB-49" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="-1010" width="18" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="F-quMCV03kclnCfe2PoB-50" value="&lt;b&gt;3&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-1013" width="18" height="18" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
